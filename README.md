@@ -79,4 +79,6 @@
 >>>
 >>> 发送方维护窗口上下边界以及nextseqnum，以及最早的已被发送但未被确认的分组
 >>>
-> 选择重传 Selected
+> 选择重传 Selective Resend (SR)
+>
+>> 
