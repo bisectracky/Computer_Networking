@@ -55,7 +55,6 @@ while True:
 			response_header += 'Connection: close\n\n'
 			
 		server_response = response_header.encode()
-		
 		server_response += response_content
 		
 		connectionSocket.send(server_response)
